@@ -10,6 +10,8 @@ from src.apis.mock_api import MockAPI
 class InvoxAPI(Resource):
   def post(self):
     """
+    AI画像分析登録API
+
     画像ファイルをAIに分析し結果をDBに登録するAPI
 
     Parameters
