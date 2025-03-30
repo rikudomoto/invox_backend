@@ -35,7 +35,7 @@ flask db upgrade
 リクエスト成功
 
 ```
-curl --location 'http://0.0.0.0:5001/input_ai' \
+curl --location 'http://localhost:5001/input_ai' \
 --header 'Content-Type: application/json' \
 --data '{
     "path": "/image/d03f1d36ca69348c51aa/c413eac329e1c0d03/test.jpg"
@@ -45,7 +45,7 @@ curl --location 'http://0.0.0.0:5001/input_ai' \
 リクエスト失敗
 
 ```
-curl --location 'http://0.0.0.0:5001/input_ai' \
+curl --location 'http://localhost:5001/input_ai' \
 --header 'Content-Type: application/json' \
 --data '{
     "path": ""
